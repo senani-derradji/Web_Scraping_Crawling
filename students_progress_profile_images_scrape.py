@@ -46,7 +46,7 @@ def login_and_capture_screenshot(username, password):
     except Exception as e:
         print("Error:", e)
 
-csv_file_path = '2020.csv'
+csv_file_path = '*************' # ID, Birthday
 data_dict = create_dictionary_from_csv(csv_file_path)
 
 for username, password in data_dict.items():
